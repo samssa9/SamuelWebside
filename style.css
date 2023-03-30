@@ -1,0 +1,112 @@
+/* Define layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+a {
+  font-weight: bold;
+}
+
+/* Example color scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #ffc107;
+  --text-color: #333;
+}
+
+/* Apply colors to elements */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,126 @@
+/* Set up default font and margin/padding */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header with a gradient background and increased padding/font size */
+header {
+  background: linear-gradient(to bottom, #ffcc00, #ff8f00);
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Style the main content area */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f6f6f6;
+}
+
+/* Style the player section */
+#music {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#playlist {
+  flex-basis: 60%;
+  margin-right: 20px;
+}
+
+#player {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#player {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#album-art {
+  height: 150px;
+  margin-right: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+#song-info h2,
+#song-info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the playlist section */
+#playlist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#playlist li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+  color: #ff8f00;
+  text-shadow: 1px 1px #333;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffcc00;
+  text-shadow: 2px 2px #333;
+}

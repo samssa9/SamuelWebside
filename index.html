@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Soundify - The Music Player</title>
+    <link rel="stylesheet" href="sound.css">
+  </head>
+  <body>
+    <header>
+      <h1>Soundify</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Hjem</a></li>
+          <li><a href="#">Spillelister</a></li>
+          <li><a href="#">Om oss</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="music">
+        <div id="playlist">
+          <ul>
+        </div>
+        <div id="player">
+          <img id="album-art" src="eminem.jpg" alt="Album art for Eminem's Song 1">
+          <div id="song-info">
+            <h2>Song 1</h2>
+            <h3>Eminem</h3>
+          </div>
+          <audio id="audio-player" src="spotifydown.com - 561jH07mF1jHuk7KlaeF0s.mp3"></audio>
+          <div id="controls">
+            <button id="play-pause" accesskey="p">Spill</button>
+            <button id="skip-forward" accesskey="n">Neste</button>
+            <button id="skip-backward" accesskey="b">Forrige</button>
+            <div id="time-display">00:00</div>
+          </div>
+        </div>
+      </div>      
+      <div id="playlist">
+        <h2>Spilleliste 1</h2>
+        <ul>
+          <li><a href="#" class="song">Song 1 - Eminem 1</a></li>
+          <li><a href="#" class="song">Song 2 - Michael 2</a></li>
+          <li><a href="#" class="song">Song 3 - Bohemian 3</a></li>
+          <li><a href="#" class="song">Song 4 - Eminem 4</a></li>
+          <li><a href="#" class="song">Song 5 - Abba 5</a></li>
+        </ul>
+      </div>
+      <div id="playlist">
+        <h2>Spilleliste 2</h2>
+        <ul>
+          <li><a href="#" class="song">Song 1 - Ed Sheeran 1</a></li>
+          <li><a href="#" class="song">Song 2 - GunsN'Roses 2</a></li>
+          <li><a href="#" class="song">Song 3 - Journey 3</a></li>
+          <li><a href="#" class="song">Song 4 - Bob Dylan 4</a></li>
+          <li><a href="#" class="song">Song 5 - Maroon 5</a></li>
+        </ul>
+      </div>
+      <div id="options">
+        <label for="autoplay">
+          <input type="checkbox" id="autoplay"> Autoplay playlist
+        </label>
+        <label for="shuffle">
+          <input type="checkbox" id="shuffle"> Shuffle playlist
+        </label>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
